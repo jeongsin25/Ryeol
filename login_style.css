@@ -25,7 +25,7 @@ body{
 }
 #wrap{
     height:100vh;
-    background:rgba(230,230,230,1);
+    background:rgba(240,240,240,1);
     min-width:1200px;
     display:flex;
     flex-flow:column nowrap;
@@ -43,7 +43,7 @@ body{
     z-index:10
 }
 .web_width{
-    background:rgba(230,230,230,1);
+    background:rgba(240,240,240,1);
     width:450px;
     margin:0 auto;
 }

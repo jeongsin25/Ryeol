@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    box-sizing:border-box;
+}
+body{
+    background:powderblue;
+    width:100%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#wrap{
+    height:100vh;
+    background:rgba(230,230,230,1);
+    min-width:1200px;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+}
+.wrap_1{
+    width:500px;
+    height:700px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    border:2px solid black;
+    border-radius:50px;
+    z-index:10
+}
+.web_width{
+    background:rgba(230,230,230,1);
+    width:450px;
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+
+/*----------------Logo--------------------*/
+
+.header{
+    padding:50px 0;
+    text-align:center;
+}
+.logo_image{
+    width:45%
+}
+
+
+
+
+/*-----------------Login------------------*/
+
+.container{
+    text-align:center;
+    padding:0 0 150px 0;
+}
+.login{
+    width:380px;
+    margin:0 auto;
+}
+.id input , .pw input{
+    width:100%;
+    padding:15px 10px;
+    margin: 0 0 5px 0;
+    border:1px solid rgba(0,0,0,1);
+}
+.error{
+    color:red;
+    font-size:13px;
+    text-align:left;
+    margin:0 0 8px 0;
+}
+.submit input{
+    width:100%;
+    padding:15px 10px;
+    margin:10px 0 0 0;
+    border:1px solid rgba(0,0,0,1);
+    cursor:pointer;
+}
+.option{
+    margin:10px 0 0 0;
+    display:flex;
+    justify-content:flex-end;
+}
+.id_find , .pw_find , .sign_up{
+    font-size:14px;
+    color:rgba(70,70,70,1);
+}
+.id_find a , .pw_find a , .sign_up a{
+    color:rgba(70,70,70,1);
+}
+.id_find::after{
+    content:"/";
+    padding:0 5px;
+}
+.pw_find::after{
+    content:"/";
+    padding:0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,273 @@
+/*------------container-------------*/
+.product_wrap{
+    width:180px;
+    height:400px;
+    position:sticky;
+    top:50px;
+    margin:0 0 0 10px;
+}
+.product_wrap > div > a{
+    color:rgba(0,0,0,1);
+}
+.product_wrap_title{
+    padding:0 0 15px 0;
+    border-bottom:2px solid rgba(0,0,0,1);
+    display:inline-block;
+    width:150px;
+}
+.product_wrap_title > a{
+    font-size:28px;
+    font-weight:800;
+}
+
+
+.product_wrap_sub_title{
+    font-size:18px;
+    margin:30px 0 30px 0;
+}
+
+
+.product_wrap_menu{
+    font-size:15px;
+    margin: 0 0 10px 0;
+}
+.product_wrap_menu > button{
+    background:rgba(255,255,255,1);
+    width:15px;
+    border:0px;
+    padding:2px;
+    cursor:pointer;
+}
+.product_wrap_menu > ul{
+    padding:5px 0 3px 15px;
+}
+.product_wrap_menu > ul > li{
+    margin:0 0 10px 0;
+}
+.product_wrap_menu > ul > li > a{
+    font-size:13px;
+    color:rgba(0,0,0,1);
+}
+
+
+
+
+
+.container_1{
+    margin:50px 0 0 0;
+/*    background:green;*/
+    display:flex;
+}
+.product{
+    display:flex;
+    flex-flow:column nowrap;
+    width:1000px;
+}
+.nav_name{
+    margin:0 0 30px 10px;
+    font-size:16px;
+}
+.location_ul{
+    margin:0 0 30px 10px;
+}
+.location_ul > li:nth-child(1){
+    margin:0px;
+}
+.location_ul > li{
+    display:inline-block;
+    margin:0 0 0 5px;
+}
+.location_ul > li > a{
+    font-size:13px;
+    color:rgba(0,0,0,1);
+}
+.location_ul > li:last-child>a{
+    font-weight:800;
+}
+.location_ul > li:nth-child(1)::before{
+    content:"";
+    margin:0px;
+}
+.location_ul > li::before{
+    content:"> ";
+    width:10px;
+    height:10px;
+    font-size:8px;
+    position:relative;
+    bottom:1px;
+    margin:0 5px 0 0;
+}
+
+
+
+
+
+
+
+
+.product_list{
+/*    margin:0 0 100px 0;*/
+}
+.product_margin{
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    background:rgba(255,255,255,1);
+}
+.product_brand{
+    padding:10px 0 0 10px;
+    font-weight:700;
+}
+.product_name{
+    padding:8px 0 0 10px;
+    font-size:14px;
+}
+
+.product_price{
+    padding:25px 0 0 10px;
+}
+.product_price_cost{
+    font-weight:800;
+}
+.product_price_unit{
+    font-size:14px;
+}
+.product_ul{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+}
+.product_ul > li:nth-child(1) ,
+.product_ul > li:nth-child(2) ,
+.product_ul > li:nth-child(3) ,
+.product_ul > li:nth-child(4){
+    margin-top:0px;
+}
+.product_ul > li{
+    margin:100px 10px 0 10px;
+    width:230px;
+    min-height:300px;
+    position:relative;
+}
+.product_ul > li > div > a{
+    color:rgba(0,0,0,1);
+}
+.product_margin > a > img{
+    width:230px;
+    height:230px;
+}
+.product_margin:hover{
+    z-index:5;
+    background:rgba(255,255,255,1);
+}
+.product_margin:after{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    border:1px solid rgba(0,0,0,0);
+    pointer-events:none;
+    z-index:1;
+}
+.product_margin:hover:after{
+    border:1px solid rgba(0,0,0,1);
+    transition:border 0.5s;
+}
+.product_ul > li:hover> div >.product_add{
+    display:block;
+}
+.product_add{
+    display:none;
+    position:relative;
+    z-index:1;
+}
+.product_size_ul{
+    margin:20px 10px 0 10px;
+    padding:15px 2px 10px 2px;
+    border-top:1px solid rgba(0,0,0,1);
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+}
+.product_size_ul > li{
+    font-size:13px;
+    color:rgba();
+    padding:0 2px;
+    margin:0 0 5px 0;
+}
+
+.product_user{
+    display:flex;
+    justify-content:flex-end;
+}
+.product_user_keep{
+    width:115px;
+    height:40px;
+    font-size:13px;
+    background:rgba(255,255,255,1);
+    color:rgba(0,0,0,1);
+    border:0px;
+    border-top:1px solid black;
+    cursor:pointer;
+}
+.product_user_buy{
+    width:115px;
+    height:40px;
+    font-size:13px;
+    background:rgba(0,0,0,1);
+    color:rgba(255,255,255,1);
+    border:0px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paging{
+    padding:40px 0 0 0;
+    margin:120px 0 100px 0;
+    border-top:1px solid rgba(0,0,0,1);
+}
+.paging_ul{
+    display:flex;
+    justify-content:center;
+}
+.paging_ul > li{
+    width:30px;
+    height:30px;
+    margin:0 10px 0 0;
+}
+.paging_ul > li > a{
+    color:rgba(0,0,0,1);
+    display:inline-block;
+    width:30px;
+    height:30px;
+    font-size:12px;
+    text-align:center;
+    line-height:27px;
+    border:1px solid rgba(0,0,0,1);
+}
+.paging_ul > li > a:hover{
+    background:rgba(0,0,0,1);
+    color:rgba(255,255,255,1);
+}
+
+
+
+
+
+
+
+/*------------/container-------------*/

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인 - 쇼핑몰</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login_style.css">
+    <link rel="shortcut icon" type="image⁄x-icon" href="로고/이미지/title_logo.svg">
+</head>
+<body>
+    <div id="wrap">
+        <div class="wrap_1">
+            <div class="header web_width">
+                <a href="index.html">
+                    <img src="로고/이미지/logo.png" alt="로고" class="logo_image">
+                </a>
+            </div>
+            <div class="container web_width">
+                <form action="test2.html" class="login" name="login">
+                    <div class="id">
+                        <input type="text" name="id" autofocus placeholder="아이디">
+                        <div class="error" id="error_id"></div>
+                    </div>
+                    <div class="pw">
+                        <input type="password" name="pw" placeholder="비밀번호">
+                        <div class="error" id="error_pw&false"></div>
+                    </div>
+                    <div class="option">
+                        <div class="id_find"><a href="#">아이디 찾기</a></div>
+                        <div class="pw_find"><a href="#">비밀번호 찾기</a></div>
+                        <div class="sign_up"><a href="#">회원가입</a></div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" name="submit" value="로그인">
+                    </div>
+                </form>
+            </div>
+            <div class="footer web_width"></div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

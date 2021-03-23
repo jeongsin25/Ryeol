@@ -1,0 +1,10 @@
+.product_ul{
+    display:block;
+}
+.product_ul
+> div{
+    font-size:20px;
+    font-weight:800;
+    text-align:center;
+    margin:200px;
+}

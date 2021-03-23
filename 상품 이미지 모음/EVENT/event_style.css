@@ -1,0 +1,35 @@
+.main_name{
+    margin:80px 350px 100px 350px;
+    padding:0 0 70px 0;
+    border-bottom:1px solid rgba(0,0,0,1);
+    font-size:72px;
+    font-weight:600;
+    text-align:center;
+}
+
+.event_list{
+    margin:0 0 100px 0;
+}
+.event_list
+> li{
+    background:rgba(0,0,0,1);
+    width:500px;
+    height:200px;
+    margin:10px auto;
+    overflow:hidden;
+}
+.event_list
+> li > a > img{
+    transition:all 0.5s;
+}
+.event_list
+> li:hover > a > img{
+    opacity:0.8;
+    transform:scale(1.05);
+}
+.event_name{
+    font-size:20px;
+    font-weight:800;
+    text-align:center;
+    margin:40px 0 0 0;
+}

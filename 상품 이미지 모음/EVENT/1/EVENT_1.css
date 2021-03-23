@@ -1,0 +1,57 @@
+.event_container{
+    background:url(소스.png);
+    color:rgb(255,255,255,1)
+}
+.event_list{
+    display:flex;
+    justify-content:space-around;
+    margin:0px 50px;
+    padding:800px 0 0px 0;
+}
+.event_list
+li
+img{
+    width:250px;
+}
+.event_buttons{
+    display:flex;
+    justify-content:space-around;
+    margin:0 50px;
+    padding:0 0 250px 0;
+}
+.event_button{
+    background:rgba(255,255,255,1);
+    display:block;
+    width:120px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    border-radius:20px;
+    margin:20px 65px 65px;
+    color:rgba(0,0,0,1);
+    font-weight:800;
+    transition:all 0.3s;
+}
+.event_button:hover{
+    background:rgba(200,200,200,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

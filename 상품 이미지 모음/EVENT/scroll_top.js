@@ -21,7 +21,6 @@ document.addEventListener('scroll' , function(){
 
 
 
-
 // footer_bottom_ul 홈페이지 링크 활성화
 var footer_bottom_ul = document.getElementsByClassName('footer_bottom_ul')[0];
 var header_middle = document.getElementsByClassName('header_middle')[0];
